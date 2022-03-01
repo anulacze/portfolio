@@ -1,0 +1,205 @@
+html {
+    background: url("images/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #102140;
+    font-family: Montserrat;
+}
+
+.top_content {
+    display: flex;
+}
+
+.image {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+}
+
+.photo {
+    border-radius: 50%;
+    height: auto;
+    width: 60%;
+    position: absolute;
+    top: 28%;
+    left: 18%;
+    z-index: 15;
+    animation-duration: 0.75s;
+    animation-delay: 1s;
+    animation-name: whoop;
+}
+
+@keyframes whoop {
+    from {
+        height: auto;
+        width: 60%;
+    }
+  
+    40% {
+        height: auto;
+        width: 65%;
+        top: 25%;
+        left: 15%;
+    }
+
+    70% {
+        height: auto;
+        width: 55%;
+        top: 30%;
+        left: 20%;
+    }
+  
+    to {
+        height: auto;
+        width: 60%;
+    }
+  }
+
+.circle1 {
+    border-radius: 50%;
+    width: 54%;
+    background-color: #055c91;
+    position: absolute;
+    top: 22%;
+    left: 42%;
+    z-index: 10;
+    padding-top: 54%;
+}
+
+.circle2 {
+    border-radius: 50%;
+    width: 42%;
+    background-color: #84d4f4;
+    position: absolute;
+    top: 17%;
+    left: 22%;
+    z-index: 5;
+    padding-top: 42%;
+}
+
+.main_text {
+    width: 50%;
+    position: relative;
+}
+
+.headers {
+    position: absolute;
+    top: 50vh;
+}
+
+.menu {
+    display: flex;
+    position: fixed;
+    top: 5%;
+    right: -230px;
+    width: 300px;
+    transition: all 0.5s ease-out;
+    z-index: 10;
+}
+
+.menu:hover {
+    display: flex;
+    position: fixed;
+    top: 5%;
+    right: 0;
+    width: 300px;
+}
+
+.menu_content {
+    background-color: #84d4f4;
+    padding: 10% 2%;
+    flex: 1;
+    border-bottom-left-radius: 10px;
+}
+
+.menu_content a {
+    text-decoration: none;
+    color: #102140;
+    transition: color 0.2s linear;
+}
+
+.menu_content a:hover {
+    color: #055c91;
+}
+
+#menu_icon {
+    width: 70px;
+    height: auto;
+    background-color: #84d4f4;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 10% 0;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: Lora;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.text_content {
+    width: 80%;
+    border-top: 1px solid #055c91;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.25rem;
+    text-align: justify;
+}
+
+h4 a {
+    font-family: Lora;
+    transition: color 0.2s linear;
+}
+
+h4 a:hover {
+    color: #055c91;
+    cursor: pointer;
+}
+
+.project {
+    width: 50%;
+    height: auto;
+    display: none;
+    transition: all 0.2s linear;
+}
+
+.project:hover {
+    width: 52%;
+    height: auto;
+}
+
+.skills_icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills_icon {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills_icons img {
+    width: 80%;
+    height: 80%;
+}
