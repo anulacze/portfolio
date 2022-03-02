@@ -3,7 +3,7 @@ function pokazUkryj (element) {
         element.style.display = 'none';
     } else {
         element.style.display = 'inline';
-        }
+    }
 }
 
 const youTube = document.getElementById('youTube');

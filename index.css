@@ -31,26 +31,22 @@ html {
 
 @keyframes whoop {
     from {
-        height: auto;
         width: 60%;
     }
   
     40% {
-        height: auto;
         width: 65%;
         top: 25%;
         left: 15%;
     }
 
     70% {
-        height: auto;
         width: 55%;
         top: 30%;
         left: 20%;
     }
   
     to {
-        height: auto;
         width: 60%;
     }
   }
@@ -93,16 +89,12 @@ html {
     top: 5%;
     right: -230px;
     width: 300px;
-    transition: all 0.5s ease-out;
+    transition: right 0.5s ease-out;
     z-index: 10;
 }
 
 .menu:hover {
-    display: flex;
-    position: fixed;
-    top: 5%;
     right: 0;
-    width: 300px;
 }
 
 .menu_content {
@@ -182,7 +174,6 @@ h4 a:hover {
 
 .project:hover {
     width: 52%;
-    height: auto;
 }
 
 .skills_icons {
@@ -191,17 +182,12 @@ h4 a:hover {
 }
 
 .skills_icon {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 10px;
 }
 
 .skills_icons img {
-    width: 80%;
-    height: 80%;
+    width: 80px;
+    height: 80px;
 }
 
 .turn_alert {
@@ -252,11 +238,6 @@ h4 a:hover {
         z-index: 30;
     }
 
-    .menu:hover {
-        top: 0;
-        width: 100%;
-    }
-
     .menu_content {
         background-color: #84d4f4;
         padding: 2% 2%;
@@ -275,6 +256,7 @@ h4 a:hover {
     }
 
     #about {
+        /* this is hack to fix issue on Safari mobile */
         flex: 1.02;
     }
 
@@ -314,9 +296,9 @@ h4 a:hover {
         width: 100%;
     }
 
-    .skills_icon {
-        width: 50px;
-        height: 50px;
+    .skills_icon img {
+        width: 40px;
+        height: 40px;
     }
   }
 
