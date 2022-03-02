@@ -274,6 +274,10 @@ h4 a:hover {
         padding-left: 0;
     }
 
+    #about {
+        flex: 1.02;
+    }
+
     li {
         font-size: 1rem;
         padding: 1% 1%;
