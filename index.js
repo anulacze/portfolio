@@ -23,3 +23,9 @@ const disneyImg = document.getElementById('disneyImg');
 disney.addEventListener('click', function () {
     pokazUkryj(disneyImg);
 });
+
+const pokemon = document.getElementById('pokemon');
+const pokemonImg = document.getElementById('pokemonImg');
+pokemon.addEventListener('click', function () {
+    pokazUkryj(pokemonImg);
+});
