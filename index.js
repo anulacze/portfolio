@@ -29,3 +29,9 @@ const pokemonImg = document.getElementById('pokemonImg');
 pokemon.addEventListener('click', function () {
     pokazUkryj(pokemonImg);
 });
+
+const notes = document.getElementById('notes');
+const notesImg = document.getElementById('notesImg');
+notes.addEventListener('click', function () {
+    pokazUkryj(notesImg);
+});

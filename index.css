@@ -155,12 +155,14 @@ h3 {
     text-align: justify;
 }
 
-h4 a {
+.projects a {
     font-family: Lora;
     transition: color 0.2s linear;
+    text-decoration: none;
+    color: #102140;
 }
 
-h4 a:hover {
+.projects a:hover {
     color: #055c91;
     cursor: pointer;
 }
