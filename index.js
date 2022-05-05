@@ -35,3 +35,9 @@ const notesImg = document.getElementById('notesImg');
 notes.addEventListener('click', function () {
     pokazUkryj(notesImg);
 });
+
+const disneyGallery = document.getElementById('disneyGallery');
+const disneyGalleryImg = document.getElementById('disneyGalleryImg');
+disneyGallery.addEventListener('click', function () {
+    pokazUkryj(disneyGalleryImg);
+});
