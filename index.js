@@ -47,3 +47,9 @@ const playlistRemoverImg = document.getElementById('playlistRemoverImg');
 playlistRemover.addEventListener('click', function () {
     pokazUkryj(playlistRemoverImg);
 });
+
+const filmFinder = document.getElementById('filmFinder');
+const filmFinderImg = document.getElementById('filmFinderImg');
+filmFinder.addEventListener('click', function () {
+    pokazUkryj(filmFinderImg);
+});
