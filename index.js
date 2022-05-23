@@ -41,3 +41,9 @@ const disneyGalleryImg = document.getElementById('disneyGalleryImg');
 disneyGallery.addEventListener('click', function () {
     pokazUkryj(disneyGalleryImg);
 });
+
+const playlistRemover = document.getElementById('playlistRemover');
+const playlistRemoverImg = document.getElementById('playlistRemoverImg');
+playlistRemover.addEventListener('click', function () {
+    pokazUkryj(playlistRemoverImg);
+});
